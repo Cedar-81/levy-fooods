@@ -39,6 +39,9 @@ import Testimonial from './testimonialCard/testimonial'
 //menu component import
 import Menu from './menuCard/menu';
 
+//footer component import
+import Footer from '../Footer/footer';
+
 function Home() {
     return (
         <div className='Home'>
@@ -144,6 +147,10 @@ function Home() {
                             <Testimonial />
                         </div>                        
 
+                </section>
+
+                <section className='footer'>
+                    <Footer />
                 </section>
 
             </div>
