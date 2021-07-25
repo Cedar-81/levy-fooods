@@ -1,0 +1,80 @@
+@import '../../../GeneralStyles/gs.scss';
+
+.dishCard {
+
+    width: 15vw;
+    height: 34vh;
+    background: linear-gradient(180deg, #8A8A8A 0%, #FCFCFC 100%) !important;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    .tdCardHeader {
+        position: relative;
+        top: -11vh;
+        background: transparent;
+
+        .price {
+            border-radius: 50px;
+            width: 7vh;
+            height: 7vh;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 15%;
+            margin-left: 60%;
+            background: linear-gradient(180deg, #C37623 0%, #FCFCFC 100%);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            
+
+            h4{
+                background-color: transparent;
+                font-size: $p-text;
+            }
+
+        }
+
+        img {
+            width: 25vh;
+            height: 25vh;
+            
+        }
+    }
+
+    .tdCardBody {
+        position: relative;
+        top: -10vh;
+
+        h4{
+            background-color: transparent;
+            font-size: $h4-text;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: $p-text;
+            font-weight: 400;
+            margin-top: 1%;
+        }
+        
+        
+        
+    }
+
+    .tdCardFooter {
+        border-radius: 50px;
+        padding: 3%;
+        top: -3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: linear-gradient(180deg, #C37623 0%, #FCFCFC 100%);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}

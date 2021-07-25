@@ -1,0 +1,82 @@
+@import '../../GeneralStyles/gs';
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    padding: 1% 0;
+    justify-content: space-between;
+    background-color: inherit;
+    
+
+    div {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        font-weight: 400px;
+        cursor: pointer;
+    }
+
+    .logo {
+        flex: 1;
+        font-size: 25px;
+        align-items: center;
+
+        span {
+            color: $main-color;
+        }
+    }
+
+    .navItems {
+        flex: 3;
+        justify-content: space-between;
+        margin: 0 5%;
+        align-items: center;
+
+        .search {
+
+            background-color: #fff;
+            padding: 2%;
+            width: 150px;
+            border: none;
+            height: 6px;
+            border-radius: 50px;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 15px;
+            
+
+          
+        }
+
+        .searchImg {
+            height: 20px;
+            width: 20px;
+            position: relative;
+            right: 57px;
+            background-color: #fff;
+            
+        }
+    }
+
+    .right {
+        flex: 1;
+        justify-content: space-around;
+
+        .signupBtn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $main-color;
+            border-radius: 50px;
+            padding: 5% 10%;
+            width: 40%;
+            height: 15px;
+            color: #fff;
+            text-align: center;
+
+        }
+    }
+}

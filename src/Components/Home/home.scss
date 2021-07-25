@@ -1,0 +1,341 @@
+@import '../../GeneralStyles/gs.scss';
+
+
+.Home {
+
+    background: linear-gradient(270deg, rgba(195, 118, 35, 0.28) 0%, rgba(255, 255, 255, 0) 100%);
+    max-width: 100vw;
+    padding: 0 5%;
+    overflow-x: hidden;
+
+    div, section, img, p{
+        background: transparent;
+        color: $text-color;
+    }
+
+
+
+    .homeItms {
+        
+        margin-top: 1%;
+
+        .banner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .bannerImg {
+                width: 130vh;
+                margin-right: -5vw;
+                flex: 1;
+         
+            }
+
+            .cta {
+               flex: 1;
+                position: relative;
+                top: 100px;
+
+                .ctaTxt {
+                    font-size: 5.1vw;
+                }
+
+                .ctaBtns {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 25vw;
+                    margin-top: 5%;
+
+                    .ctaBtn {
+                        width: 10vw;
+                        font-size: $p-text;
+                        font-weight: 700;
+                        border-radius: 50px;
+                        display: flex-direction;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        padding: 4% 3%;
+                        cursor: pointer;
+                        
+                    }
+
+                    .vm{
+                        background-color: $main-color;
+
+                        p {
+                          font-size: $p-text;
+                          color: #fff;  
+                        }
+                        
+                    }
+
+                    .bat {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }  
+
+    .menu {
+
+    
+        padding: 5% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .menuHeader {
+            text-align: center;
+            margin-bottom: 30px;
+
+            .mht {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 5px;
+                text-align: center;
+
+                h2 {
+                    background-color: transparent;
+                    font-size: $h2-text;
+                    font-weight: 400;
+
+                }             
+                
+                &::after{
+                    content: '';
+                    position: relative;
+                    width: 55px;
+                    border: 2px solid $main-color;
+                    border-radius: 5px;
+                    
+                    
+                }
+            }
+
+
+
+            h3, i {
+                background-color: transparent;
+                font-size: $h3-text;
+                opacity: 0.8;
+                
+            }
+        }
+
+        .menuItms {
+            width: 95%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;  
+
+        }        
+    }
+
+    .arr {
+        width: 40px;
+        height: 41px;
+        cursor: pointer;
+    }
+
+    .topDishes {
+         display: flex;
+         flex-direction: column;
+         padding: 0 0 5% 0;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         margin-top: 10%;
+
+        .tdHeader{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 95%;
+            width: 95%;
+            box-sizing: border-box;
+
+            h2 {
+                display: flex;
+                flex-direction: column;
+                margin-top: .6%;
+                font-size: $h2-text;
+                font-weight: 400;
+                background-color: transparent;
+
+                &::after{
+                    content: '';
+                    position: relative;
+                    width: 55px;
+                    border: 2px solid $main-color;
+                    border-radius: 5px;
+
+                    
+                    
+                }
+            }
+        }
+
+        .tdHeaderRight{
+            display: flex;
+            flex-direction: row;
+            width: 25%;
+            height: 40px;
+
+            .dishType{
+                width: 100%;
+                display: flex;           
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px 10px 0px 0px;
+
+                h3 {
+                    background-color: transparent;
+                    font-size: $h3-text;
+                }
+
+            }
+
+            .breakfast, .dinner {
+                background-color: #fff;
+            }
+
+            .lunch {
+                background-color: $main-color;
+                color: white;
+            }
+
+        }
+
+        .dishes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 95%;
+            max-width: 95%;
+            margin-top: 15%;
+        }
+
+
+    }
+
+    .wwab {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+
+
+
+        .wwabContent {
+
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+            background: rgba(195, 118, 35, 0.3) !important;
+            width: 100%;
+            height: 60vh !important;
+            padding: 5%;
+            justify-content: space-between;
+
+            .cook {
+                position: relative;
+                top: -29%;
+                height: 87vh;
+            }
+
+            .contents {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+
+                .header {
+                    margin-bottom: 5vh;
+                    h2 {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: .6%;
+                        font-size: $h2-text;
+                        font-weight: 400;
+                        background-color: transparent;
+                      
+                        &::after{
+                            content: '';
+                            position: relative;
+                            width: 55px;
+                            border: 2px solid $main-color;
+                            border-radius: 5px;
+                            margin-bottom: 2vh;
+                            
+                            
+                        }
+                    }
+            
+                    h3, i {
+                        background-color: transparent !important;
+                        font-size: $h3-text;
+                        opacity: 0.8;
+                    }
+                }
+
+    
+                .icon {
+                    height: 10vh;
+                    width: 10vh;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 4vh;
+                    flex: 1;
+                    
+                    
+
+                    .contentTxt {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 50%;   
+                        margin-left: 4%;     
+                        height: 80%;
+                        
+                        h4 {
+                            font-size: $h4-text;
+                            background: transparent;
+                        }
+
+                        p {
+                            background: transparent;
+                            font-size: $p-text;
+                            width: 2px solid black;
+                            opacity: 0.9;
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .testimonial {
+        margin-top: 10%;
+        width: 100%;
+        max-width: 100%;
+        background: rgba(255, 255, 255, 0.15);
+
+
+    }
+    
+
+}

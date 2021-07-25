@@ -1,0 +1,430 @@
+.Home {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(195, 118, 35, 0.28)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(270deg, rgba(195, 118, 35, 0.28) 0%, rgba(255, 255, 255, 0) 100%);
+  max-width: 100vw;
+  padding: 0 5%;
+  overflow-x: hidden;
+}
+
+.Home div, .Home section, .Home img, .Home p {
+  background: transparent;
+  color: #322E27;
+}
+
+.Home .homeItms {
+  margin-top: 1%;
+}
+
+.Home .homeItms .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Home .homeItms .banner .bannerImg {
+  width: 130vh;
+  margin-right: -5vw;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Home .homeItms .banner .cta {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  top: 100px;
+}
+
+.Home .homeItms .banner .cta .ctaTxt {
+  font-size: 5.1vw;
+}
+
+.Home .homeItms .banner .cta .ctaBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 25vw;
+  margin-top: 5%;
+}
+
+.Home .homeItms .banner .cta .ctaBtns .ctaBtn {
+  width: 10vw;
+  font-size: 1.2vw;
+  font-weight: 700;
+  border-radius: 50px;
+  display: flex-direction;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 4% 3%;
+  cursor: pointer;
+}
+
+.Home .homeItms .banner .cta .ctaBtns .vm {
+  background-color: #C37623;
+}
+
+.Home .homeItms .banner .cta .ctaBtns .vm p {
+  font-size: 1.2vw;
+  color: #fff;
+}
+
+.Home .homeItms .banner .cta .ctaBtns .bat {
+  background-color: #fff;
+}
+
+.Home .menu {
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Home .menu .menuHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Home .menu .menuHeader .mht {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.Home .menu .menuHeader .mht h2 {
+  background-color: transparent;
+  font-size: 2.2vw;
+  font-weight: 400;
+}
+
+.Home .menu .menuHeader .mht::after {
+  content: '';
+  position: relative;
+  width: 55px;
+  border: 2px solid #C37623;
+  border-radius: 5px;
+}
+
+.Home .menu .menuHeader h3, .Home .menu .menuHeader i {
+  background-color: transparent;
+  font-size: 1.2vw;
+  opacity: 0.8;
+}
+
+.Home .menu .menuItms {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Home .arr {
+  width: 40px;
+  height: 41px;
+  cursor: pointer;
+}
+
+.Home .topDishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 0 5% 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 10%;
+}
+
+.Home .topDishes .tdHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 95%;
+  width: 95%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Home .topDishes .tdHeader h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .6%;
+  font-size: 2.2vw;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.Home .topDishes .tdHeader h2::after {
+  content: '';
+  position: relative;
+  width: 55px;
+  border: 2px solid #C37623;
+  border-radius: 5px;
+}
+
+.Home .topDishes .tdHeaderRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 25%;
+  height: 40px;
+}
+
+.Home .topDishes .tdHeaderRight .dishType {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Home .topDishes .tdHeaderRight .dishType h3 {
+  background-color: transparent;
+  font-size: 1.2vw;
+}
+
+.Home .topDishes .tdHeaderRight .breakfast, .Home .topDishes .tdHeaderRight .dinner {
+  background-color: #fff;
+}
+
+.Home .topDishes .tdHeaderRight .lunch {
+  background-color: #C37623;
+  color: white;
+}
+
+.Home .topDishes .dishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  max-width: 95%;
+  margin-top: 15%;
+}
+
+.Home .wwab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+}
+
+.Home .wwab .wwabContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5%;
+  background: rgba(195, 118, 35, 0.3) !important;
+  width: 100%;
+  height: 60vh !important;
+  padding: 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Home .wwab .wwabContent .cook {
+  position: relative;
+  top: -29%;
+  height: 87vh;
+}
+
+.Home .wwab .wwabContent .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.Home .wwab .wwabContent .contents .header {
+  margin-bottom: 5vh;
+}
+
+.Home .wwab .wwabContent .contents .header h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .6%;
+  font-size: 2.2vw;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.Home .wwab .wwabContent .contents .header h2::after {
+  content: '';
+  position: relative;
+  width: 55px;
+  border: 2px solid #C37623;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+
+.Home .wwab .wwabContent .contents .header h3, .Home .wwab .wwabContent .contents .header i {
+  background-color: transparent !important;
+  font-size: 1.2vw;
+  opacity: 0.8;
+}
+
+.Home .wwab .wwabContent .contents .icon {
+  height: 10vh;
+  width: 10vh;
+}
+
+.Home .wwab .wwabContent .contents .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 4vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Home .wwab .wwabContent .contents .content .contentTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-left: 4%;
+  height: 80%;
+}
+
+.Home .wwab .wwabContent .contents .content .contentTxt h4 {
+  font-size: 1.5vw;
+  background: transparent;
+}
+
+.Home .wwab .wwabContent .contents .content .contentTxt p {
+  background: transparent;
+  font-size: 1.2vw;
+  width: 2px solid black;
+  opacity: 0.9;
+}
+
+.Home .testimonial {
+  margin-top: 10%;
+  width: 100%;
+  max-width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+}
+/*# sourceMappingURL=home.css.map */
